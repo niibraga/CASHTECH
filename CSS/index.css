@@ -1,0 +1,148 @@
+/* index.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Cinza escuro */
+    color: white;
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos toda a altura da viewport */
+    position: relative; /* Importante para o rodapé fixo funcionar corretamente */
+}
+
+header {
+    background-color: rgb(231, 190, 8); /* Nova cor */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .icon {
+    width: 55px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 2.3rem;
+}
+
+.welcome-section h2 {
+    color: rgb(231, 190, 8); /* Nova cor */
+    margin-bottom: 0.5rem;
+}
+
+.welcome-section hr {
+    border: 0;
+    height: 3px;
+    background: rgb(231, 190, 8); /* Nova cor */
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 1rem; /* Ajuste para subir a linha */
+}
+
+.welcome-section .slogan {
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.balance-section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.balance-box {
+    background-color: black;
+    padding: 2.5rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px; /* Aumento do tamanho */
+}
+
+.balance-box p {
+    margin: 0.3rem 0;
+}
+
+.amount {
+    color: rgb(231, 190, 8); /* Nova cor */
+    font-weight: bold;
+    font-size: 2rem; /* Ajuste do tamanho da fonte */
+}
+
+.transaction-link {
+    color: white;
+    text-decoration: none;
+    margin-top: 2rem; /* Ajuste para descer o link */
+    display: block; /* Garante que o link ocupe uma linha separada */
+}
+
+.transaction-link:hover {
+    text-decoration: underline;
+}
+
+.search-section {
+    text-align: center;
+    padding: 1rem;
+}
+
+.search-bar {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-message {
+    color: white;
+    font-size: 1rem;    
+}
+
+footer {
+    background-color: rgb(231, 190, 8); /* Cor de fundo do rodapé */
+    text-align: center;
+    padding: 0.8rem;
+    position: fixed; /* Fixa o rodapé na parte inferior da viewport */
+    bottom: 30;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+
